@@ -122,7 +122,7 @@ public class Maze {
     }
 
     boolean isWin(char[][] maze, int r, int c) {
-        if(r == maze.length-1 && c == maze[maze.length-1].length-1){
+        if(maze[r][c] == 'D'){
             System.out.println("You Win!");
             return true;
         }
