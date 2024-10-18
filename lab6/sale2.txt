@@ -1,0 +1,10 @@
+Mr Chan Tai Man,Dinner,500000.0
+ABC Company,Limited,Conference,300000.0
+TT Company Limited,Lodging,1000000.0
+Miss Judy Dai:lodging:5000.0
+TAS Travel,Lodging,I54000.0
+Ms SiSi Li,dinner,5000.0
+DEF,drink,5000.0
+Moon's Group,conference,345000.0
+Anonymous,6000.0,Dinner
+Tai Tai,Lodging,543000.0
