@@ -83,10 +83,13 @@ public class ScheduleBook {
 
     public void saveEvents(String filename) throws Exception {
         File file = new File(filename);
-        FileWriter fwriter = new FileWriter(file,true);
-        PrintWriter out = new PrintWriter(fwriter);
-        for(int i = 0;i<aList.size();i++){
-            out.println(aList.get(i).toFileString());
+        try (FileWriter fwriter = new FileWriter(file, true)){
+            PrintWriter out = new PrintWriter(fwriter);
+            for (int i = 0; i < aList.size(); i++) {
+                out.println(aList.get(i).toFileString());
+            }
+        }catch (Exception e){
+            System.out.println("Error:"+ e.getMessage());
         }
     }
 
